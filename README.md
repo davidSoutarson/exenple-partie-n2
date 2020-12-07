@@ -1,6 +1,6 @@
 Documentation
 ===============
-soutason ![une image de mois](./image/miniphot.jpg)
+soutason  ![une image de mois](./image/miniphot.jpg)
 
 david
 
