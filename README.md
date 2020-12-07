@@ -6,7 +6,7 @@ david
 
 07/12/2020
 
-![une image de mois](./image/moi.jpg)
+![une image de mois](./image/miniphoto.jpg)
 
 # exemple-partie-n°2
 
