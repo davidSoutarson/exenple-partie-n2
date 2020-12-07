@@ -2,9 +2,9 @@ Documentation
 ===============
 soutason
 
-david
+david    ![une image de mois](./image/miniphoto.jpg)
 
-07/12/2020 ![une image de mois](./image/miniphoto.jpg)
+07/12/2020
 
 
 
