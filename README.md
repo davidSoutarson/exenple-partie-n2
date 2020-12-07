@@ -6,12 +6,14 @@ david
 
 07/12/2020
 
+![une image de mois](./image/moi.jpg)
+
 # exemple-partie-n°2
 
 je vais treter dans ce docier les Methode depostion:  
 position relative, absolute, fixe et collante  
 
-je repren des cour dispenser ESECAD
+je repren des cour dispenser **ESECAD**
 
 
 ## et un fichier d'aprentisase du code HTML et CSS
