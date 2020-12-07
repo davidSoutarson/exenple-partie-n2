@@ -2,12 +2,72 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/master.css">
     <title>Methode position:</title>
   </head>
   <body>
     <div id="wrapper">
+      <header>
+        <div class="logo">
+          <img src="./image/logo.jpg" alt="ESECAD">
+        </div>
+        <h1>methode de position: postion relative,absolue fixe et colante</h1>
+        <nav>
+          <ul>
+            <li><a href="#">introduction</a></li>
+            <li class="menu-parent"><a href="#">Sommaire</a>
+              <ul class="sous-menu">
+                <li> <a href="./html/position-par-defeaux.html">postion par défeaut(rappel)</a> </li>
+                <li> <a href="#">positon relative</a> </li>
+                <li> <a href="#">Mise en pratique de la position relative</a> </li>
+                <li> <a href="#">Position absolue</a> </li>
+                <li> <a href="#">Mise en pratique de la position absolue </a> </li>
+                <li> <a href="#">Position fixe</a> </li>
+                <li> <a href="#"> Position collante (sticky)</a> </li>
+              </ul>
+           </li>
+            <li><a href="#">Conclution</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <article class="introduction">
+          <section>
+            <h2>introduction</h2>
 
-    </div>
+            <p>Dans un précédent chapitre, nous avons identifié quatre solutions pour réaliser des mises en
+              page, à savoir : flexbox, flottements, méthode display et méthode position. Dans ce chapitre,
+              il s’agira d’élargir notre gamme en s’intéressant à la règle position. Elle a la particularité,
+              contrairement aux précédentes, d’être utilisé pour des cas très particuliers qui, très souvent,
+              ne peuvent être réalisés au moyen d’autres méthodes.
+              Le principe fondamental à retenir est qu’un élément utilisant la méthode position doit avoir
+              un repère par rapport auquel il va être placé et/ou déplacé. En position relative, le repère est
+              le positionnement naturel de l’élément, en position absolu, c’est le premier parent positionné,
+              en position fixe, c’est l’écran.
+            </p>
+          </section>
+
+          <aside class="presedent-chapitre droite">
+            <h2>dans un presedent chapitre </h2>
+            <p>nous avons identitifié quatre solutions pour reéaliser une mises en page:d</p>
+            <a href="#">flexbox</a>
+            <a href="#">flottements</a>
+            <a href="#">Methode display</a>
+            <a href="#">methode potion</a>
+
+          </aside>
+
+        </article>
+      </main>
+      <footer>
+        <p>Méthode position : position relative, absolue, fixe et collante</p>
+        <div class="logo">
+          <img src="./image/logo.jpg" alt="ESECAD">
+        </div>
+      </footer>
+
+
+    </div><!--fin du wrapper-->
 
   </body>
 </html>
