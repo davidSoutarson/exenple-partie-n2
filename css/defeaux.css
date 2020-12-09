@@ -1,3 +1,35 @@
-p{
-  color: red;
+/*********position relativ ********/
+
+.clear{
+  clear: both;
 }
+/*******************************/
+
+.conteneur-rouge{
+  width: 500px;
+  height: 300px;
+  position: relative;
+  top:150px;
+  left: 300px;
+  background-color: red;
+}
+
+.orange{
+  border: 2px solid blue;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -50px;
+  left: -100px;
+  background-color: orange;
+}
+
+.verte{
+  border: 2px solid blue;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+
+/*************/

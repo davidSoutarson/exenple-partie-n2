@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/master.css">
+    <title>Methode position:</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div class="logo">
+          <a href="../index.html"> <img src="../image/logo.jpg" alt="ESECAD"></a>
+        </div>
+        <h1>position relative</h1>
+        <nav>
+          <ul>
+            <li><a href="../index.html">introduction</a></li>
+            <li class="menu-parent"><a href="#">Sommaire</a>
+              <ul class="sous-menu">
+                <li> <a href="position-par-defeaux.html">position par défeaut(rappel)</a> </li>
+                <li> <a href="position-relative.html">position relative</a> </li>
+              <li class="menu-parent"> <a href="#">Mise en pratique de la position relative</a>
+                  <ul class="sous-menu">
+                    <li> <a href="pr-exo1.html">Position relative EX°1</a></li>
+                    <li> <a href="pr-exo2.html">Position relative EX°2</a></li>
+                    <li> <a href="pr-exo3.html">Position relative EX°3</a></li>
+                  </ul>
+                 </li>
+                <li> <a href="position-absolut.html">Position absolue</a> </li>
+                <li class="menu-parent"> <a href="#">Mise en pratique de la position absolue </a>
+                  <ul class="sous-menu">
+                    <li> <a href="pa-exo1.html">position absolue EX°1</a></li>
+                    <li> <a href="pa-exo2.html">position absolue EX°2</a></li>
+                    <li> <a href="pa-exo3.html">position absolue EX°3</a></li>
+                  </ul>
+                </li>
+                <li> <a href="#">Position fixe</a> </li>
+                <li> <a href="#"> Position collante (sticky)</a> </li>
+              </ul>
+
+           </li>
+            <li><a href="#">Conclution</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div id="relative">
+        <p>
+          La règle CSS top est la distance suivant l’axe des ordonnées (Y) et la règle <br>
+          left la distance suivant l’axe des abscisses (X).
+        </p>
+
+        <p>
+          <br>En CSS, la position relative permet de sortir un élément du flux normal -<br>
+          mais pas complètement comme nous le verrons plus précisément dans <br>
+          l’exemple 3. L’élément en position relative est déplacé de l’endroit où il <br>
+          devrait apparaître par défaut.<br><br>
+          Comme vous pouvez le remarquer nous pouvons positionner les div avec <br>
+          des valeurs négatives.<br>
+          <br>Ces derniers se positionnent par rapport à leur position naturelle dans <br>
+          le flux normal, donc la position des éléments dans le code HTMLest très <br>
+          importante.
+        </p>
+
+        <p>
+          <br>Exemple 3 <br>
+          Nous rajoutons une div qui reste dans le flux (celle qui se trouve en vert) <br>
+          juste après une div qui est sortie du flux.
+        </p>
+
+        <p><br> Nous remarquons que la div verte se positionne comme si la div <br>
+          orange était restée dans le flux normal.<br><br>
+        </p>
+        <p>Cet exemple vous aidera certainement à mieux maîtriser la position <br>
+          relative d’un élément de bloc. Retenez qu’outre le déplacement par rapport <br>
+          à son positionnement naturel, la place qu’il devrait occuper dans le flux <br>
+          normal est comme réservée.
+        </p>
+
+          <div class="conteneur-rouge">
+
+             <div class="orange">
+
+             </div>
+
+             <div class="verte">
+
+             </div>
+           </div>
+
+
+      </div> <!--fin div relative-->
+      <footer>
+        <p>Méthode position : position relative, absolue, fixe et collante</p>
+        <div class="logo">
+          <img src="../image/logo.jpg" alt="ESECAD">
+        </div>
+      </footer>
+
+
+    </div> <!-- fin wrapper -->
+
+
+
+  </body>
+</html>

@@ -62,11 +62,15 @@ nav a:hover{
   color: green;
 }
 
+
 main{
-  height: 75%;
+  min-height: 75%;
   display: flex;
   align-items: center;
+}
 
+article{
+  display: flex;
 }
 
 section{
@@ -75,24 +79,103 @@ section{
 
 aside{
 max-width: 280px;
+display: flex;
+flex-direction: column;
+background-color: rgb(204,102,153);
 }
 
-article{
-  display: flex;
-
+aside a{
+  padding: 15px;
 }
 
-aside{
-  display: flex;
-  flex-direction: column;
-}
 
 footer{
   display: flex;
   align-items:center;
   justify-content: flex-end;
+
 }
 
 footer p{
   padding-right: 15px;
+}
+
+/*********position relativ ********/
+.clear{
+  clear: both;
+}
+
+/*************coure partie 1 ******************/
+
+
+/*dimetion du blok exercie*/
+#relative{
+  border:1px solid green ;
+  width: 990px;
+  min-height:1100px;
+}
+/*exenple du cour sur les position relative*/
+.conteneur-rouge{
+  width: 500px;
+  height: 300px;
+  position: relative;
+  top:150px;
+  left: 300px;
+  background-color: red;
+}
+
+.orange{
+  border: 2px solid blue;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -50px;
+  left: -100px;
+  background-color: orange;
+}
+
+.verte{
+  border: 2px solid blue;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+/*exenple du cour sur les position relative*/
+/*******Mise en pratique de la position relative******/
+.conteneur-main{
+  background-color:rgb(211,211,211);
+  height: 600px;
+  padding-top: 100px;
+}
+
+ #titre-orange{
+  margin: 25px 0;
+  background: #ff9933;
+  color: #fff;
+  padding: 10px 10px 10px 55px;
+  width: 40%;
+  font-family: arial;
+  position: relative;
+  left: -60px;
+}
+
+.exo-footer p{
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.avie-personnele{
+  display:block;
+  background-color:rgb(153,204,255);
+  border: 3px dotted rgb(51,204,0);
+  margin: 10px;
+  padding: 15px;
+}
+/******Coute posion absolue**********/
+/*je pense avoir conprie coment definire un conpotemt spesifique au main d'une page */
+
+#position-absolue{
+  display: block;
 }
