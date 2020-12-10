@@ -1,0 +1,78 @@
+#wrapper{
+  margin:0px auto;
+  /*50px pour decaler le titre de la page*/
+  width: 70%;
+  padding-top: 50px;
+  height: 300vh;
+  /*present uniquement pour avoir un
+  defilement verticale de la page*/
+  background-color: #7d38aa;
+}
+
+.menu{
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  /*bottom: 0;*/
+  /*on place le menu en bas*/
+  right: 0;
+  background-color:#385ca9;
+}
+.center{
+  text-align: center;
+}
+ul,li{
+  list-style: none;
+}
+
+ul{
+  width: 70%;
+  /*méme largeur que le #wrapper */
+  margin: 0 auto;
+}
+
+li{
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.main{
+  display: flex;
+  padding: 10px;
+  min-height: 90vh;
+}
+.actualites{
+  width: 70%;
+  background-color: #ddd;
+  min-height: 90vh;
+}
+.article{
+  border-bottom: 2px dashed #fff;
+  padding: 55px 10px 30px 10px;
+}
+
+.top-artice{
+  background-color: #cceedd;
+}
+
+.column-right {
+  width: 25%;
+  margin-left: 10px;
+  background: url(../image/regleVerticale.JPG) top right repeat-y;
+  height: 1100px;
+  padding-bottom: 50px;
+}
+
+.add{
+  position: sticky;
+  top:30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: #fff;
+}

@@ -11,7 +11,7 @@ body{
 
 #wrapper{
   width:990px;
-  height: 940px;
+  min-height: 940px;
   margin: 0 auto;
 }
 
@@ -178,4 +178,110 @@ footer p{
 
 #position-absolue{
   display: block;
+  min-height: 750px;
+}
+
+.exempleN1{
+  margin: 0 auto;
+  width:990px;
+  min-height: 400px;
+  position: relative;
+  border: solid blue;
+}
+
+.exempleN3{
+  margin: 0 auto;
+  width:990px;
+  min-height: 300px;
+  position: relative;
+  border: solid pink;
+}
+
+.pos-ap-conteneur-Rouge{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top:15%;
+  right: 1%;
+  background-color: red;
+}
+
+.pos-ap-orange{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top:-50px;
+  left: -50px;
+  background-color: orange;
+}
+
+.pos-ap-verte{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+
+
+}
+
+.superposer{
+  position: absolute;
+  top:25%;
+  left:6%;
+}
+
+.superposer2{
+  position: absolute;
+  top:25%;
+  right:21%;
+}
+
+.pos-ap-o2{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top:-50px;
+  left: -50px;
+  background-color: orange;
+  z-index:1;
+}
+
+.pos-ap-v2{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: absolute;
+  z-index:2;
+}
+
+figure{
+  border:1px solid #ddd;
+  float: left;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+figcaption{
+  font-size: 12px;
+  font-weight: bold;
+  padding: 20px 10px;
+  background: rgba(10, 10, 10, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+figure:hover figcaption{
+  display: none;
+}
+
+.explication{
+  width: auto;
+  border:2px solid black;
 }
