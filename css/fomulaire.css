@@ -1,0 +1,74 @@
+/*reste css*/
+*{
+  margin:0;
+  padding: 0;
+}
+/*mise en fome generale de la page*/
+body{
+  font-family: arial, verdana, sans-serif;
+  color: rgb(128, 128, 128);/*gray*/
+}
+
+h1{
+  text-align: center;
+  color: rgba(128,0,128,0.5);/* purpule */
+  padding-bottom: 40px;
+}
+/*dimetion et position des element*/
+.corp-formulaire{
+  margin: 15px auto;
+  padding: 40px 20px;
+  max-width: 600px;
+/*  min-height: 650px;*/
+  border: 2px solid rgb(128,0,128);/* purpule */
+  background-color: rgba(147, 112, 219,0.6);/*maginta claire*/
+}
+
+form{
+  width: auto;
+  /*height: 500px;*/
+  background-color: rgb(147, 112, 219,);/*maginta claire*/
+}
+
+fieldset{
+
+}
+
+.mesage {
+  margin: 10px;
+}
+
+.nom{
+  margin: 42px;
+}
+
+.email{
+  margin: 33px;
+}
+
+input, textarea{
+    background-color: rgba(202, 202, 202,0.5);/*gray*/
+    padding:15px 10px 10px 10px ;
+
+}
+
+input{
+  width: 355px;
+}
+
+#envoyer input{
+ width: 100px;
+}
+
+label{
+  margin-left: 30px;
+}
+
+
+
+#envoyer{
+  float: right;
+    margin: 10px;
+    text-align: center;
+
+}
