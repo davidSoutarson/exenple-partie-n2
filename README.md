@@ -1,22 +1,32 @@
-Documentation
-===============
-soutason
+# Documentation
 
-david    
+**Auteur :** David Soutarson  
+**Date :** 07/12/2020  
 
-07/12/2020
+![Photo de moi](./image/miniphoto.jpg)
 
-![une image de mois](./image/miniphoto.jpg)
+---
 
-# exemple-partie-n°2
+## Exemple — Partie n°2
 
-je vais treter dans ce docier les Methode depostion:  
-position relative, absolute, fixe et collante  
+Dans ce dossier, je traite des **méthodes de positionnement** en CSS, notamment :
 
-je repren des cour dispenser **ESECAD**
+- `position: relative`
+- `position: absolute`
+- `position: fixed`
+- `position: sticky`
 
+Cette documentation s'appuie sur les cours dispensés par **ESECAD**.
 
-## et un fichier d'aprentisase du code HTML et CSS
+---
 
+## Objectif
 
-### j'ai realiser cette docmentation dans le l'angage Mardowon
+Il s'agit d'un **fichier d'apprentissage** contenant du code **HTML** et **CSS**, destiné à approfondir la compréhension du positionnement des éléments en CSS.
+
+---
+
+## Remarque
+
+Cette documentation a été rédigée en utilisant le langage **Markdown**.
+
